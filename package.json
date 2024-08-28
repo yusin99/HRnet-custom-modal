@@ -1,0 +1,24 @@
+{
+  "name": "oc-custom-modal-react",
+  "version": "1.0.0",
+  "description": "A simple component library to create a modal",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc && cp package.json README.md ./src/Modal.css ./dist"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": {
+    "name": "Yusin Sedrati"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  }
+}
